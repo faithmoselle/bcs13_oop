@@ -1,4 +1,4 @@
-**bank_account_encapsulation.py**
+# bank_account_encapsulation.py
 Learning and demonstrating Object-Oriented Programming (OOP) concepts, specifically:
 1. Encapsulation - The fundamental principle of bundling data (attributes) and methods (functions) within a class, hiding internal details from outside access
 2. Access Modifiers - Understanding how Python implements:
@@ -48,12 +48,12 @@ Access Modifiers:
    - NOT accessible from outside (name mangling applies)
    - Denoted by double underscore prefix '__'
    - Python implements this through name mangling
-** library_catalog_system.py**
+
+# library_catalog_system.py
 Library Catalog System
 Activity 230609 - Demonstrates OOP principles (encapsulation, classes, methods)
 
 ACTIVITY ASSIGNMENT BELOW
-================================================================================
 230609 - Main Activity
 Activity 1: Building a Library Catalog System
 Objective: Implement a library catalog system using encapsulation principles.
@@ -97,7 +97,7 @@ Second 11-20 submission without errors --> 90 points
 Third 21-30 submission without errors --> 85
 the rest without errors --> 80
 Late submission or submission with error --> 60
-================================================================================
+
 Implementing a Library Catalog System - a console-based application that demonstrates:
   1. Object-Oriented Programming (OOP) - Creating and using a Book class
   2. Encapsulation - Using getter methods to access private attributes
