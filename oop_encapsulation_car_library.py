@@ -1,4 +1,7 @@
 '''
+Name: Faith Moselle O. Paule
+Program Code: BCS13
+
 Implementing Object-Oriented Programming (OOP) concepts in Python, specifically focusing on:
 1. Access Modifiers/Encapsulation - Demonstrating protected (_) and private (__) attributes/methods in a Car class
 2. Understanding a Programming Assignment - You've been given a Library Catalog System activity (Activity 1) with clear requirements to:
