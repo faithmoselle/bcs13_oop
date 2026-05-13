@@ -1,4 +1,4 @@
-# bank_account_encapsulation.py
+**bank_account_encapsulation.py**
 Learning and demonstrating Object-Oriented Programming (OOP) concepts, specifically:
 1. Encapsulation - The fundamental principle of bundling data (attributes) and methods (functions) within a class, hiding internal details from outside access
 2. Access Modifiers - Understanding how Python implements:
@@ -48,4 +48,67 @@ Access Modifiers:
    - NOT accessible from outside (name mangling applies)
    - Denoted by double underscore prefix '__'
    - Python implements this through name mangling
-"""
+** library_catalog_system.py**
+Library Catalog System
+Activity 230609 - Demonstrates OOP principles (encapsulation, classes, methods)
+
+ACTIVITY ASSIGNMENT BELOW
+================================================================================
+230609 - Main Activity
+Activity 1: Building a Library Catalog System
+Objective: Implement a library catalog system using encapsulation principles.
+
+Instructions:
+Define a class called Book with the following attributes and methods:
+Attributes:
+- title : The title of the book.
+- author: The author of the book.
+- publication_year: The year the book was published.
+- is_available: Indicates whether the book is available for borrowing.
+
+Methods:
+- __init__(self, title, author, publication_year): Initializes the book object with the given title, author, and publication year. Set is_available to True by default.
+- get_title(self): Returns the title of the book.
+- get_author(self): Returns the author of the book.
+- get_publication_year(self): Returns the publication year of the book.
+- is_book_available(self): Returns the availability status of the book.
+- borrow_book(self): Marks the book as borrowed (sets is_available to False).
+- return_book(self): Marks the book as returned (sets is_available to True).
+
+Create a list called library to store the book objects.
+
+Implement the following functionality in the main program:
+  1. Prompt the user to enter book details (title, author, publication year).
+  2. Create a Book object with the provided details and add it to the library list.
+  3. Repeat the above step to add multiple books to the library.
+  4. Display the available books in the library.
+  5. Prompt the user to choose a book to borrow by entering its index.
+     - If the chosen book is available, mark it as borrowed and display a success message. Otherwise, display an error message.
+  6. Display the available books in the library again.
+  7. Prompt the user to choose a book to return by entering its index.
+     - If the chosen book is not available, mark it as returned and display a success message. Otherwise, display an error message.
+  8. Display the available books in the library one final time.
+
+Note: You can use the input() function to get user input and the print() function to display messages and book information.
+
+Grading:
+First 1-10 submission without errors --> 100 points
+Second 11-20 submission without errors --> 90 points
+Third 21-30 submission without errors --> 85
+the rest without errors --> 80
+Late submission or submission with error --> 60
+================================================================================
+Implementing a Library Catalog System - a console-based application that demonstrates:
+  1. Object-Oriented Programming (OOP) - Creating and using a Book class
+  2. Encapsulation - Using getter methods to access private attributes
+  3. CRUD Operations - Create (add books), Update (borrow/return), Read (display books)
+  4. Menu-driven Interface - User interaction via numbered choices
+  5. Input Validation - Error handling for invalid inputs and out-of-range indices
+  6. Collection Management - Storing objects in a list and manipulating them
+
+This is a practical exercise for learning:
+  1. Class design and instantiation
+  2. Method creation and calling
+  3. List operations with custom objects
+  4. User input handling in Python
+  5. Basic error handling (try-except)
