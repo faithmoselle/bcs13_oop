@@ -112,3 +112,17 @@ This is a practical exercise for learning:
   3. List operations with custom objects
   4. User input handling in Python
   5. Basic error handling (try-except)
+# oop_encapsulation_car_library.py
+Implementing Object-Oriented Programming (OOP) concepts in Python, specifically focusing on:
+1. Access Modifiers/Encapsulation - Demonstrating protected (_) and private (__) attributes/methods in a Car class
+2. Understanding a Programming Assignment - You've been given a Library Catalog System activity (Activity 1) with clear requirements to:
+	2.1 Build a Book class with encapsulation
+	2.2 Implement a console-based library management system
+	2.3 Handle book borrowing and returning functionality
+	2.4 Submit with GitHub link and screenshots
+3. Language Used
+	3.1 Python 3 (using classes, methods, encapsulation conventions)
+4. Technical Stacks
+	4.1 Core Python 3 - No external libraries
+	4.2 Concepts demonstrated: OOP, encapsulation, name mangling, getter patterns
+	4.3 Input/Output: print(), input() (needed for the assignment)
