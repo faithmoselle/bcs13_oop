@@ -1,5 +1,5 @@
 """
-Name: Faith Moselle O. Paule
+AUTHOR: Faith Paule
 Program Code: BCS13
 
 Language used: Python 3
